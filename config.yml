@@ -1,0 +1,116 @@
+stuff:
+  sword:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "§7Epée §9ArcaliaBox"
+      enchants:
+        DAMAGE_ALL: 1
+      Unbreakable: true
+  casque:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "§7Casque §9ArcaliaBox"
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      Unbreakable: true
+  plastron:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "§7Plastron §9ArcaliaBox"
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+      Unbreakable: true
+  pantalon:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "§7Jambièsre §9ArcaliaBox"
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      Unbreakable: true
+  bottes:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "§7Bottes §9ArcaliaBox"
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      Unbreakable: true
+  bow:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "§7Arc §9ArcaliaBox"
+      enchants:
+        ARROW_DAMAGE: 1
+        ARROW_INFINITE: 1
+      Unbreakable: true
+spawn:
+  world: world
+  x: 0.48914015939226374
+  y: 46.0625
+  z: 0.6865551593918373
+Locations:
+  1:
+    x: -47
+    y: 5.00
+    z: 56
+  2:
+    x: -67
+    y: 5
+    z: 28
+  3:
+    x: -18
+    y: 5
+    z: -43
+  4:
+    x: -5
+    y: 17
+    z: -101
+  5:
+    x: 25
+    y: 5
+    z: -72
+  6:
+    x: 50
+    y: 5
+    z: -50
+  7:
+    x: 67
+    y: 5
+    z: -18
+  8:
+    x: 76
+    y: 5
+    z: 17
+  9:
+    x: 30
+    y: 5
+    z: -43
+  10:
+    x: 5
+    y: 17
+    z: 101
+  11:
+    x: -12
+    y: 5
+    z: 12
+  12:
+    x: 7
+    y: 5
+    z: -5

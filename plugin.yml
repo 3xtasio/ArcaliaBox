@@ -1,0 +1,19 @@
+name: ArcaliaBox
+main: fr.extasio.arcaliabox.Main
+version: 1.0
+description: PvPBox
+author: Extasio
+commands:
+  spawnbox:
+    description: Teleporte au spawn
+    permission: arcaliabox.spawn
+    permission-message: Vous n'avez pas la permission requise.
+  setspawnbox:
+    description: defini le spawn du pvpbox
+    permission: arcaliabox.setspawn
+    permission-message: Vous n'avez pas la permission requise.
+permissions:
+    arcaliabox.spawn:
+        description: Vous pouvez utiliser /spawnbox
+    arcaliabox.setspawn:
+        description: Vous pouvez utiliser /setspawnbox
